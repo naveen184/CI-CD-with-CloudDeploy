@@ -4,7 +4,7 @@ metadata:
   name: git-ops
 build:
   artifacts:
-  - image: gcr.io/$my-first-project-17342/my-gitops-image
+  - image: gcr.io/my-first-project-17342/my-gitops-image
     docker:
       dockerfile: Dockerfile
 deploy:
