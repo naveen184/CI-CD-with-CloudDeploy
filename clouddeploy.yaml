@@ -18,10 +18,10 @@ metadata:
  name: qsdev
 description: development cluster
 gke:
- cluster:  projects/$my-first-project-17342/locations/asia-east1-a/clusters/cluster1
+ cluster:  projects/my-first-project-17342/locations/asia-east1-a/clusters/cluster1
 executionConfigs:
 - defaultPool:
-    serviceAccount: gke-sa@$my-first-project-17342.iam.gserviceaccount.com
+    serviceAccount: gke-sa@my-first-project-17342.iam.gserviceaccount.com
   usages:
   - RENDER 
   - DEPLOY   
@@ -35,10 +35,10 @@ metadata:
 description: production cluster
 requireApproval: true
 gke:
- cluster:  projects/$my-first-project-17342/locations/us-west1-a/clusters/cluster-prod
+ cluster:  projects/my-first-project-17342/locations/us-west1-a/clusters/cluster-prod
 executionConfigs:
 - defaultPool:
-    serviceAccount: gke-sa@$my-first-project-17342.iam.gserviceaccount.com
+    serviceAccount: gke-sa@my-first-project-17342.iam.gserviceaccount.com
   usages:
   - RENDER 
   - DEPLOY
