@@ -22,5 +22,5 @@ steps:
       "--delivery-pipeline", "gitops",
       "--region", "asia-east1",
       "--annotations", "commitId=${REVISION_ID}",
-      "--images", "sanket-clouddeploy-image=gcr.io/my-first-project-17342/my-clouddeploy-image:${COMMIT_SHA}"
+      "--images", "my-clouddeploy-image=gcr.io/my-first-project-17342/my-clouddeploy-image:${COMMIT_SHA}"
     ]
