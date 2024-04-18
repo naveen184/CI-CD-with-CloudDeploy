@@ -18,7 +18,7 @@ metadata:
  name: qsdev
 description: development cluster
 gke:
- cluster:  projects/my-first-project-17342/locations/asia-east1-a/clusters/cluster1
+ cluster:  projects/my-first-project-17342/locations/asia-east1-a/clusters/test-cluster
 executionConfigs:
 - defaultPool:
     serviceAccount: gke-sa@my-first-project-17342.iam.gserviceaccount.com
@@ -35,7 +35,7 @@ metadata:
 description: production cluster
 requireApproval: true
 gke:
- cluster:  projects/my-first-project-17342/locations/us-west1-a/clusters/cluster-prod
+ cluster:  projects/my-first-project-17342/locations/us-west1-a/clusters/prod-cluster
 executionConfigs:
 - defaultPool:
     serviceAccount: gke-sa@my-first-project-17342.iam.gserviceaccount.com
