@@ -20,6 +20,6 @@ gcloud deploy apply --file clouddeploy.yaml --region=asia-east1 --project=PROJEC
 
 2. After you Push your Code changes in master branch, Cloud Build will get Trigger and then Steps will be Executed from cloudbuild.yaml file
 
-3. We can see the Realease been deployed inside our pipeline
+3. We can see the Realease been deployed inside our pipeline.
 
 4. After Release get Deployed in Our DEV environment we can then Promote our Release to Prod Clusters
